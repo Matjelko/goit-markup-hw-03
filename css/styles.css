@@ -1,0 +1,249 @@
+body{
+    font-family: 'Roboto', 'Raleway', 'Montserrat', sans-serif;
+    color: var(--text-color-main);
+}
+
+*{
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+:root{
+    --text-color-black: black;
+    --text-color-main: #757575;
+    --text-color-white: white;
+    --background-color-darkgrey: #2F303A; 
+    --background-color-lightgrey: #F5F4FA;
+    --hover-color: #2196F3;
+}
+
+.container{
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section{
+    padding-top: 94px;
+}
+
+.section-second{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.section-main-heading{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.section-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+}
+
+.box-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-flex-section-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.link-first{
+    color: var(--text-color-black);
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    padding-right: 46px;
+}
+
+.link-second{
+    color: var( --text-color-main);
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    padding-right: 50px;
+}
+
+.link-third{
+    color: var( --text-color-main);
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+.link-studio{
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.link-first:hover{
+    color: var(--hover-color);
+}
+
+.link-second:hover{
+    color: var(--hover-color);
+}
+
+.btn-portfolio{
+    background-color: var(--background-color-lightgrey);
+    color: var(--text-color-black);
+    font-size: 16px;
+    line-height: 1.2;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.btn-portfolio:hover{
+    background-color: var(--hover-color);
+}
+
+.img-title-portfolio{
+    font-size: 18px;
+    color: var(--text-color-black);
+    line-height: 2;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+.img-describtion-portfolio{
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+}
+
+.street{
+    color: var(--text-color-white);
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+    letter-spacing: 0.03em;
+}
+
+.darkgrey{
+    background-color: var(--background-color-darkgrey);
+}
+
+.web{
+    color: var(--hover-color);
+}
+
+.studio-white{
+    color: var(--text-color-white);
+}
+
+.studio-black{
+    color: var(--text-color-black);
+}
+
+.black-title-second{
+    color: var(--text-color-black);
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.paragraph-first{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.black-title{
+    color: var(--text-color-black);
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.img-studio{
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.img-studio-second{
+    display: block;
+    margin: 0 auto;
+}
+
+.img-title-studio{
+    color: var(--text-color-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.img-describtion-studio{
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.btn-studio{
+    background-color: var(--hover-color);
+    color: var(--background-color-lightgrey);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+}
+
+.main-heading{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    color: var(--background-color-lightgrey);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
