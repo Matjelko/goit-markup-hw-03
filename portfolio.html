@@ -12,15 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="top">
+    <header class="wrapper box-flex border-bottom">
         <div class="container box-flex">
-            <a href="./index.html" class="link-studio"><span class="web">Web</span><span class="studio-black">Studio</span></a>
+            <a href="./index.html" class="link-studio section-header"><span class="web">Web</span><span class="studio-black">Studio</span></a>
             <nav>
                 <a href="#top" class="link-first">Agencja</a>
                 <a href="./portfolio.html" class="link-first">Portfolio</a>
                 <a href="#bottom" class="link-first">Kontakt</a>
             </nav>
-            <article class="box-flex">
+            <article class="box-flex section-header social-links">
                 <a href="mailto:info@devstudio.com" class="link-second">info@devstudio.com</a>
                 <a href="tel:+48111111111" class="link-second">+48 111 111 111</a>
             </article>
@@ -28,60 +28,64 @@
     </header>
 
     <main id="page-theme">
-        <div class="container">
-            <nav class="box-flex justify-content-center">
-                <button type="button" class="btn-portfolio">Wszystkie</button>
-                <button type="button" class="btn-portfolio">Strony</button>
-                <button type="button" class="btn-portfolio">Aplikacje</button>
-                <button type="button" class="btn-portfolio">Dizajn</button>
-                <button type="button" class="btn-portfolio">Marketing</button>
-            </nav>
+        <div>
+            <div class="wrapper box-flex">
+                <nav class="container box-flex justify-content-center">
+                    <button type="button" class="btn-portfolio btn-margin-portfolio">Wszystkie</button>
+                    <button type="button" class="btn-portfolio btn-margin-portfolio">Strony</button>
+                    <button type="button" class="btn-portfolio btn-margin-portfolio">Aplikacje</button>
+                    <button type="button" class="btn-portfolio btn-margin-portfolio">Dizajn</button>
+                    <button type="button" class="btn-portfolio">Marketing</button>
+                </nav>
+            </div>
 
-            <div class="box-flex flex-wrap">
-                <figure>
-                    <img src="./images/img2-1.jpg" alt="Technocrack" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Technocrack</span> <br> <span class="img-describtion-portfolio">Strona internetowa</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-2.jpg" alt="Grafika New Orlean vs Golden Star" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Grafika New Orlean vs Golden Star</span> <br> <span class="img-describtion-portfolio">Dizajn</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-3.jpg" alt="Restauracja Seafood" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Restauracja Seafood</span> <br> <span class="img-describtion-portfolio">Aplikacja</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-4.jpg" alt="Projekt Prime" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Projekt Prime</span> <br> <span class="img-describtion-portfolio">Marketing</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-5.jpg" alt="Projekt Boxes" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Projekt Boxes</span> <br> <span class="img-describtion-portfolio">Aplikacja</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-6.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Inspiration has no Borders</span> <br> <span class="img-describtion-portfolio">Strona internetowa</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-7.jpg" alt="Magazyn Limited Edition" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Magazyn Limited Edition</span> <br> <span class="img-describtion-portfolio">Dizajn</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-8.jpg" alt="Projekt LAB" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Projekt LAB</span> <br> <span class="img-describtion-portfolio">Marketing</span></figcaption>
-                </figure>
-                <figure>
-                    <img src="./images/img2-9.jpg" alt="Growing Business" width="370" height="294">
-                    <figcaption><span class="img-title-portfolio">Growing Business</span> <br> <span class="img-describtion-portfolio">Aplikacja</span></figcaption>
-                </figure>
+            <div class="wrapper box-flex section-second-portfolio">
+                <div class="container box-flex flex-wrap">
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-1.jpg" alt="Technocrack" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Technocrack</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Strona internetowa</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-2.jpg" alt="Grafika New Orlean vs Golden Star" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Grafika New Orlean vs Golden Star</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Dizajn</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-3.jpg" alt="Restauracja Seafood" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Restauracja Seafood</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Aplikacja</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-4.jpg" alt="Projekt Prime" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Projekt Prime</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Marketing</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-5.jpg" alt="Projekt Boxes" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Projekt Boxes</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Aplikacja</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-6.jpg" alt="Inspiration has no Borders" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Inspiration has no Borders</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Strona internetowa</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-7.jpg" alt="Magazyn Limited Edition" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Magazyn Limited Edition</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Dizajn</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-8.jpg" alt="Projekt LAB" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Projekt LAB</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Marketing</span></figcaption>
+                    </figure>
+                    <figure class="figure-style-portfolio">
+                        <img src="./images/img2-9.jpg" alt="Growing Business" width="370" height="294">
+                        <figcaption><span class="img-title-portfolio img-portfolio img-portfolio-padding">Growing Business</span> <br> <span class="img-describtion-portfolio img-portfolio-padding">Aplikacja</span></figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
     </main>
 
-    <footer id="bottom" class="darkgrey">
-        <div class="container">
+    <footer id="bottom" class="darkgrey wrapper">
+        <div class="section-footer">
             <a href="./index.html" class="link-studio"><span class="web">Web</span><span class="studio-white">Studio</span></a>
-            <address>
+            <address class="address-style">
                 <span class="street">m. Warszawa, Aleje Jerozolimskie 21</span> <br>
                 <a href="mailto:info@example.com" class="link-third">info@example.com</a><br>
                 <a href="tel:+48111111111" class="link-third">+48 111 111 111</a>

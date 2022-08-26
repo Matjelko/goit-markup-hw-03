@@ -16,20 +16,29 @@ body{
     --background-color-darkgrey: #2F303A; 
     --background-color-lightgrey: #F5F4FA;
     --hover-color: #2196F3;
+    --border-color-lightgrey: #ECECEC;
+    --border-color-lightgrey-second: #EEEEEE;
+    --border-color-transparent: transparent;
+}
+
+.wrapper{
+    width: 1600px;
 }
 
 .container{
     width: 1200px;
-    align-items: center;
-    justify-content: center;
 }
 
 .section{
     padding-top: 94px;
 }
 
-.section-second{
+.section-second-studio{
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-second-portfolio{
     padding-bottom: 94px;
 }
 
@@ -40,13 +49,13 @@ body{
 
 .section-main-heading{
     padding-top: 200px;
-    padding-bottom: 200px;
+    padding-bottom: 230px;
 }
 
 .section-footer{
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 100px;
+    padding-left: 215px;
 }
 
 .box-flex{
@@ -127,10 +136,28 @@ body{
     cursor: pointer;
     text-align: center;
     letter-spacing: 0.03em;
+    width: 121px;
+    height: 38px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.btn-margin-portfolio{
+    margin-right: 8px;
 }
 
 .btn-portfolio:hover{
     background-color: var(--hover-color);
+}
+
+.img-portfolio{
+    display: inline-block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.img-portfolio-padding{
+    padding-left: 24px;
 }
 
 .img-title-portfolio{
@@ -199,6 +226,10 @@ body{
     padding-top: 30px;
 }
 
+.img-margin-studio{
+    margin-right: 30px;
+}
+
 .img-studio-second{
     display: block;
     margin: 0 auto;
@@ -246,4 +277,37 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+}
+
+.border-bottom{
+    border-bottom: 1px solid var(--border-color-lightgrey);
+    border-top: 1px solid var(--border-color-transparent);
+    border-left: 1px solid var(--border-color-transparent);
+    border-right: 1px solid var(--border-color-transparent);
+    background-clip: border-box;
+}
+
+.background-color-lightgrey{
+    background-color: var(--background-color-lightgrey);
+}
+
+.figure-style-studio{
+    background-color: var(--text-color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    padding-bottom: 30px;
+}
+
+.figure-style-portfolio{
+    background-color: var(--text-color-white);
+    border: 1px solid var(--border-color-lightgrey-second);
+    padding-bottom: 20px;
+}
+
+.address-style{
+    padding-top: 20px;
+}
+
+.social-links{
+    padding-left: 100px;
 }
