@@ -59,16 +59,6 @@ body{
     align-items: center;
 }
 
-.box-flex-footer{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.container-footer{
-    width: 1000px;
-}
-
 .box-flex-section-second{
     display: flex;
     justify-content: center;
