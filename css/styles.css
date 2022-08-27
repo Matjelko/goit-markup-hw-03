@@ -21,10 +21,6 @@ body{
     --border-color-transparent: transparent;
 }
 
-.wrapper{
-    width: 1600px;
-}
-
 .container{
     width: 1200px;
 }
@@ -55,13 +51,22 @@ body{
 .section-footer{
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 215px;
 }
 
 .box-flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.box-flex-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-footer{
+    width: 1000px;
 }
 
 .box-flex-section-second{
