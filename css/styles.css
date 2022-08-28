@@ -320,9 +320,15 @@ body{
 }
 
 .address-style{
+    display: flex;
+    flex-direction: column;
     padding-top: 20px;
 }
 
 .social-links{
     padding-left: 100px;
+}
+
+.text-color-lightblue{
+    color: var(--hover-color);
 }
